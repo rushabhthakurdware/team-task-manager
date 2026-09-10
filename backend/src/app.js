@@ -10,7 +10,7 @@ app.use(express.json());  // IMPORTANT
 
 app.get("/", (req, res) => {
     res.json({
-        message: "Team Task Manager API is running"
+        message: "Welcome to Team Task Manager API"
     });
 });
 
